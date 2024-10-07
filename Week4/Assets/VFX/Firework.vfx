@@ -20,7 +20,7 @@ MonoBehaviour:
     x: 941
     y: -190
     width: 1001
-    height: 2947
+    height: 2955
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2037,7 +2037,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614896}
   - {fileID: 8926484042661614753}
   - {fileID: 8926484042661614890}
-  m_UIPosition: {x: 1518, y: 1094}
+  m_UIPosition: {x: 1518, y: 1087}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -2102,7 +2102,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614849}
   - {fileID: 8926484042661614861}
   - {fileID: 8926484042661614908}
-  m_UIPosition: {x: 1518, y: 1680}
+  m_UIPosition: {x: 1518, y: 1688}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -2139,9 +2139,9 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661614706}
   - {fileID: 8926484042661614859}
+  - {fileID: 8926484042661614922}
   - {fileID: 8926484042661614894}
-  - {fileID: 8926484042661614917}
-  m_UIPosition: {x: 1518, y: 2102}
+  m_UIPosition: {x: 1518, y: 2110}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4321,7 +4321,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
   m_LinkedSlots: []
---- !u!114 &8926484042661614917
+--- !u!114 &8926484042661614922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4340,10 +4340,10 @@ MonoBehaviour:
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
-  - {fileID: 8926484042661614918}
+  - {fileID: 8926484042661614923}
   m_OutputSlots: []
   m_Disabled: 0
-  m_ActivationSlot: {fileID: 8926484042661614919}
+  m_ActivationSlot: {fileID: 8926484042661614924}
   attribute: color
   Composition: 1
   AlphaComposition: 0
@@ -4351,7 +4351,7 @@ MonoBehaviour:
   Mode: 1
   ColorMode: 3
   channels: 6
---- !u!114 &8926484042661614918
+--- !u!114 &8926484042661614923
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4369,14 +4369,14 @@ MonoBehaviour:
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661614918}
+  m_MasterSlot: {fileID: 8926484042661614923}
   m_MasterData:
-    m_Owner: {fileID: 8926484042661614917}
+    m_Owner: {fileID: 8926484042661614922}
     m_Value:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":72.65931701660156,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":47.937252044677737,"g":44.44698715209961,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.29706263542175295},{"alpha":0.800000011920929,"time":0.7205920219421387},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1024.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":1024.0,"g":949.443603515625,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.10000763088464737},{"alpha":0.800000011920929,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -4385,7 +4385,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
   m_Direction: 0
   m_LinkedSlots: []
---- !u!114 &8926484042661614919
+--- !u!114 &8926484042661614924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4403,9 +4403,9 @@ MonoBehaviour:
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661614919}
+  m_MasterSlot: {fileID: 8926484042661614924}
   m_MasterData:
-    m_Owner: {fileID: 8926484042661614917}
+    m_Owner: {fileID: 8926484042661614922}
     m_Value:
       m_Type:
         m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
